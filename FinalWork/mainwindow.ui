@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1029</width>
+    <height>746</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>384</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="7" column="0">
+      <widget class="QWidget" name="widget_22" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_14">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+       </layout>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QWidget" name="widget_31" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_24">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_21">
+          <property name="text">
+           <string>商贷款额：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_20">
+          <property name="placeholderText">
+           <string>贷款类别为3时填写        万</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <spacer name="verticalSpacer_7">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>10</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="0">
+      <widget class="QWidget" name="widget_24" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_16">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>贷款类别：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <property name="iconSize">
+           <size>
+            <width>16</width>
+            <height>16</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_13"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QWidget" name="widget_23" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_15">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>还款方式：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_6">
+          <item>
+           <property name="text">
+            <string>等额本息   填“1”</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>等额本金   填“2”</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_12"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QWidget" name="widget_7" native="true">
+       <layout class="QGridLayout" name="gridLayout">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QWidget" name="widget_8" native="true">
+          <layout class="QGridLayout" name="gridLayout_3">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QWidget" name="widget_4" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+       </layout>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QWidget" name="widget_13" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>贷款利率：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_5">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="maxCount">
+           <number>2147483646</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>20年3月20日贷款市场报价利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>19年9月20日贷款市场报价利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率上限1.05倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年3月1日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日基准利率</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="placeholderText">
+           <string>  %</string>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QWidget" name="widget_5" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QPushButton" name="btn1">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>开始计算</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn2">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="text">
+           <string>清空重填</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QWidget" name="widget_6" native="true">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="horizontalSpacing">
+         <number>0</number>
+        </property>
+        <property name="verticalSpacing">
+         <number>7</number>
+        </property>
+        <item row="2" column="0">
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Fixed</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>10</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="9" column="0">
+         <widget class="QWidget" name="widget_20" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_12">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>按揭年数：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="comboBox_4"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_10"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QWidget" name="widget_9" native="true">
+          <layout class="QFormLayout" name="formLayout_3">
+           <property name="horizontalSpacing">
+            <number>0</number>
+           </property>
+           <property name="verticalSpacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0" colspan="2">
+            <widget class="QWidget" name="widget_19" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_11">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="label_9">
+                <property name="text">
+                 <string>按揭成数：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_3"/>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_9">
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="placeholderText">
+                 <string>计算方式为1时填写</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QWidget" name="widget_25" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_17">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QWidget" name="widget_26" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_18">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>计算方式：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="comboBox_2"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_14"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QWidget" name="widget_3" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>房屋面积：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_2">
+             <property name="placeholderText">
+              <string>请输入房屋面积           平方米</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="10" column="0">
+         <widget class="QWidget" name="widget_12" native="true">
+          <layout class="QFormLayout" name="formLayout_5">
+           <property name="horizontalSpacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+          </layout>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <spacer name="verticalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Fixed</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>10</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0">
+         <widget class="QWidget" name="widget_2" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>房屋单价：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="placeholderText">
+              <string>请输入房屋单价           元/平米</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QWidget" name="widget_11" native="true">
+          <layout class="QFormLayout" name="formLayout_2">
+           <property name="horizontalSpacing">
+            <number>0</number>
+           </property>
+           <property name="verticalSpacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+          </layout>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QWidget" name="widget_10" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_19">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_16">
+             <property name="text">
+              <string>贷款总额：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_15">
+             <property name="placeholderText">
+              <string>（计算方式为2时填）请输入贷款总额 万</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QWidget" name="widget_27" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_20">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_17">
+          <property name="text">
+           <string>商贷利率：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_7">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="maxCount">
+           <number>2147483646</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>20年3月20日贷款市场报价利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>19年9月20日贷款市场报价利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率上限1.05倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年3月1日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日基准利率</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_16">
+          <property name="placeholderText">
+           <string>  %</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QWidget" name="widget_28" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_21">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_18">
+          <property name="text">
+           <string>公积金率：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_8">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="maxCount">
+           <number>2147483646</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>20年3月20日贷款市场报价利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>19年9月20日贷款市场报价利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率上限1.05倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年10月24日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年8月26日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年3月1日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15年5月11日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14年11月22日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年7月6日基准利率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日利率上限1.1倍</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日利率下限85折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日利率下限7折</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12年6月8日基准利率</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_17">
+          <property name="placeholderText">
+           <string>  %</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <spacer name="verticalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>10</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="3" column="0">
+      <widget class="QWidget" name="widget_32" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_25">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_22">
+          <property name="text">
+           <string>公积款额：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_21">
+          <property name="placeholderText">
+           <string>贷款类别为3时填写        万</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>30</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>计算结果：</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_14" native="true">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>140</y>
+      <width>275</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>每月月供：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="placeholderText">
+        <string>方式为等额本息时显示</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_15" native="true">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>240</y>
+      <width>275</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>贷款总额：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_5"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_16" native="true">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>290</y>
+      <width>275</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>支付利息：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_6"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_17" native="true">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>340</y>
+      <width>275</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>还款总额：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_7"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_18" native="true">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>390</y>
+      <width>275</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_10">
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>还款月数：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_8"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_21" native="true">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>50</y>
+      <width>245</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_13">
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>首付：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_11">
+       <property name="placeholderText">
+        <string>面积，单价计算时显示</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_29" native="true">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>90</y>
+      <width>275</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_22">
+     <item>
+      <widget class="QLabel" name="label_19">
+       <property name="text">
+        <string>首月月供：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_18">
+       <property name="placeholderText">
+        <string>方式为等额本金时显示</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_30" native="true">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>190</y>
+      <width>275</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_23">
+     <item>
+      <widget class="QLabel" name="label_20">
+       <property name="text">
+        <string>每月递减：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_19">
+       <property name="placeholderText">
+        <string>方式为等额本金时显示</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
