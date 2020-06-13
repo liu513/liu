@@ -12,12 +12,12 @@ MainWindow::MainWindow(QWidget *parent)
     this->setWindowTitle("房贷计算器");
 
     //贷款类别
-    ui->comboBox->addItem("商业贷款  请填“1”");
-    ui->comboBox->addItem("公积金贷款  请填“2”");
-    ui->comboBox->addItem("组合贷款  请填“3”");
+    ui->comboBox->addItem("商业贷款");
+    ui->comboBox->addItem("公积金贷款");
+    ui->comboBox->addItem("组合贷款");
     //计算方式
-    ui->comboBox_2->addItem("根据面积、单价计算  请填“1”");
-    ui->comboBox_2->addItem("根据贷款总额计算  请填“2”");
+    ui->comboBox_2->addItem("1 根据面积、单价计算");
+    ui->comboBox_2->addItem("2 根据贷款总额计算");
     //按揭成数
     ui->comboBox_3->addItem("8成");
     ui->comboBox_3->addItem("7.5成");
@@ -33,31 +33,31 @@ MainWindow::MainWindow(QWidget *parent)
     ui->comboBox_3->addItem("2.5成");
     ui->comboBox_3->addItem("2成");
     //按揭年数
-    ui->comboBox_4->addItem("25年(300期)");
-    ui->comboBox_4->addItem("24年(288期)");
-    ui->comboBox_4->addItem("23年(376期)");
-    ui->comboBox_4->addItem("22年(264期)");
-    ui->comboBox_4->addItem("21年(252期)");
-    ui->comboBox_4->addItem("20年(240期)");
-    ui->comboBox_4->addItem("19年(228期)");
-    ui->comboBox_4->addItem("18年(216期)");
-    ui->comboBox_4->addItem("17年(204期)");
-    ui->comboBox_4->addItem("16年(192期)");
-    ui->comboBox_4->addItem("15年(180期)");
-    ui->comboBox_4->addItem("14年(168期)");
-    ui->comboBox_4->addItem("13年(156期)");
-    ui->comboBox_4->addItem("12年(144期)");
-    ui->comboBox_4->addItem("11年(132期)");
-    ui->comboBox_4->addItem("10年(120期)");
-    ui->comboBox_4->addItem("9年(108期)");
-    ui->comboBox_4->addItem("8年(96期)");
-    ui->comboBox_4->addItem("7年(84期)");
-    ui->comboBox_4->addItem("6年(72期)");
-    ui->comboBox_4->addItem("5年(60期)");
-    ui->comboBox_4->addItem("4年(48期)");
-    ui->comboBox_4->addItem("3年(36期)");
-    ui->comboBox_4->addItem("2年(24期)");
-    ui->comboBox_4->addItem("1年(12期)");
+    ui->comboBox_4->addItem("300期/月)");
+    ui->comboBox_4->addItem("288期/月");
+    ui->comboBox_4->addItem("376期/月");
+    ui->comboBox_4->addItem("264期/月");
+    ui->comboBox_4->addItem("252期/月");
+    ui->comboBox_4->addItem("240期/月");
+    ui->comboBox_4->addItem("228期/月");
+    ui->comboBox_4->addItem("216期/月");
+    ui->comboBox_4->addItem("204期/月");
+    ui->comboBox_4->addItem("192期/月");
+    ui->comboBox_4->addItem("180期/月");
+    ui->comboBox_4->addItem("168期/月");
+    ui->comboBox_4->addItem("156期/月");
+    ui->comboBox_4->addItem("144期/月");
+    ui->comboBox_4->addItem("132期/月");
+    ui->comboBox_4->addItem("120期/月");
+    ui->comboBox_4->addItem("108期/月");
+    ui->comboBox_4->addItem("96期/月");
+    ui->comboBox_4->addItem("84期/月");
+    ui->comboBox_4->addItem("72期/月");
+    ui->comboBox_4->addItem("60期/月");
+    ui->comboBox_4->addItem("48期/月");
+    ui->comboBox_4->addItem("36期/月");
+    ui->comboBox_4->addItem("24期/月");
+    ui->comboBox_4->addItem("12期/月");
     //贷款利率
 
 
@@ -71,11 +71,15 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_btn1_clicked()
 {
-    //selection_1是贷款类别选择，selection_2是计算方式选择，selection_3是还款方式
-    QString selection_1,selection_2,selection_3;
-    selection_1 = ui->lineEdit_13->text();
-    selection_2 = ui->lineEdit_14->text();
-    selection_3 = ui->lineEdit_12->text();
+//    //selection_1是贷款类别选择，selection_2是计算方式选择，selection_3是还款方式
+//    QString selection_1,selection_2,selection_3;
+//    selection_1 = ui->lineEdit_13->text();
+//    selection_2 = ui->lineEdit_14->text();
+//    selection_3 = ui->lineEdit_12->text();
+    //box1是贷款类别，box2是计算方式，box3是还款方式
+    int box1 = this->ui->comboBox->currentIndex();
+    int box2 = this->ui->comboBox_2->currentIndex();
+    int box3 = this->ui->comboBox_6->currentIndex();
     //line1是房屋单价，line2是房屋面积，line3是首付，line4是按揭成数
     QString line1,line2,line3,line4;
     //line5是贷款总额, line6是还款总额，line7贷款利率，line8是每月月供，line9是支付利息，line10是还款月数
@@ -104,13 +108,16 @@ void MainWindow::on_btn1_clicked()
     c= line10.toDouble();
 
     //如果是商业贷款或者公积金贷款
-    if(selection_1=="1"||selection_1=="2")
+    //if(selection_1=="1"||selection_1=="2")
+    if(box1==0||box1==1)
     {
         //等额本息
-        if(selection_3=="1")
+        //if(selection_3=="1")
+        if(box3==0)
         {
             //根据面积，单价计算
-            if(selection_2=="1")
+            //if(selection_2=="1")
+            if(box2==0)
             {
                 //首付计算
                 t= x*y*(1-z*0.1);
@@ -138,7 +145,8 @@ void MainWindow::on_btn1_clicked()
                 ui->lineEdit_7->setText(line6);
             }
             //根据贷款总额计算
-            else if(selection_2=="2")
+            //else if(selection_2=="2")
+            else if(box2==1)
             {
                 //读取贷款总额
                 line5 = ui->lineEdit_15->text();
@@ -169,10 +177,12 @@ void MainWindow::on_btn1_clicked()
             }
         }
         //等额本金
-        else if(selection_3=="2")
+        //else if(selection_3=="2")
+        else if(box3==1)
         {
             //根据面积单价计算
-            if(selection_2=="1")
+            //if(selection_2=="1")
+            if(box2==0)
             {
                 //首付计算
                 t= x*y*(1-z*0.1);
@@ -204,7 +214,8 @@ void MainWindow::on_btn1_clicked()
                 ui->lineEdit_19->setText(line12);
             }
             //根据贷款总额计算
-            else if(selection_2=="2")
+            //else if(selection_2=="2")
+            else if(box2==1)
             {
                 //读取贷款总额
                 line5 = ui->lineEdit_15->text();
@@ -238,7 +249,8 @@ void MainWindow::on_btn1_clicked()
         }
     }
     //如果是组合型贷款
-    else if(selection_1=="3")
+    //else if(selection_1=="3")
+    else if(box1==2)
     {
         //读取lineedit上的内容
         line13 = ui->lineEdit_20->text();
@@ -251,7 +263,8 @@ void MainWindow::on_btn1_clicked()
         j= line15.toDouble();
         k= line16.toDouble();
         //计算方式为等额本息
-        if(selection_3=="1")
+        //if(selection_3=="1")
+        if(box3==0)
         {
             //贷款总额计算
             m= h+i;
@@ -278,7 +291,8 @@ void MainWindow::on_btn1_clicked()
             ui->lineEdit_7->setText(line6);
         }
         //计算方式为等额本金
-        if(selection_3=="2")
+        //if(selection_3=="2")
+        if(box3==1)
         {
             //贷款总额计算
             m= h+i;
@@ -323,9 +337,9 @@ void MainWindow::on_btn2_clicked()
     ui->lineEdit_9->clear();
     ui->lineEdit_10->clear();
     ui->lineEdit_11->clear();
-    ui->lineEdit_12->clear();
-    ui->lineEdit_13->clear();
-    ui->lineEdit_14->clear();
+//    ui->lineEdit_12->clear();
+//    ui->lineEdit_13->clear();
+//    ui->lineEdit_14->clear();
     ui->lineEdit_15->clear();
     ui->lineEdit_16->clear();
     ui->lineEdit_17->clear();
