@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-//这里做个测试
+//测试一下
 typedef int elementType;
 typedef struct node
 {
